@@ -1,0 +1,10 @@
+*I was slightly confused about how to use the games.json file; should I use it to read the data directly, or use the data in it and stuff it into the database? Well, I did both, so no room for misinterpretation.
+
+*This project is composed of two parts: a front-end and a back-end.It is a MERN project(I feel more comfortable with these technologies and, moreover, it is not necessary to use an SQL database for this small project.)
+
+*Each project has its own Readme file that I invite you to read.
+
+*I hope everything is clear, don't hesitate to contact me for more explanations.
+*eslint and prettier are used  to set up a linter and make the code stylish 
+*I tried to minimize the use of comments;because as uncle Bob said:whenever you feel the need to add a comment, your code is not clear enough.
+

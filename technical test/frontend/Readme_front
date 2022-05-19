@@ -1,0 +1,14 @@
+*This is the frontend of the project, it is a React project.
+*The project contains only one page (/app.js)
+there are 2 components used, you can find them in /src/components: 
+*games table is a component that contains a materialUi table to show the list of games it contains
+*filterinput is the component where the user adds filters (by paltform, genre and number of games) to the input fields of materialUi.
+*Communication with the backend server is via axios; you can find both requests in /src/utils/games.api.js.
+*The .env file is used to store the variable (the server url) as follows 
+REACT_APP_SERVER_URL = http://localhost:3000/
+*To run this project, just install the dependencies with npm install and then start it with npm start.
+
+
+
+
+

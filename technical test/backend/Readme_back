@@ -1,0 +1,16 @@
+*this is the backend of the project,it is developed in NodeJS, with the use of mongoose for the communication with the database (a mongodb database) and express for the REST API.
+*As I mentioned earlier, in the root Readme, there are two sources of data in our project; one from a Mongodb database and one from a Json file.
+*In order to get the same results regardless of the data source we use, I wrote two functions for each service and made sure to get the same results from them.
+*In addition to the requested filters (platform and game genre), I added another one which is the number of results to display. I was asked to return the best games, but without specifying a number (maybe it's 3 because the table in the example has 3 columns but I think it's better to let the user decide the number of results).
+*o make sure that each service works perfectly, I wrote some tests that you can find in /test.game.spec.js using Ava and supertest.
+*the json file "games.json" containing the data can be found in /public.
+*the .env file containing the environment variable is, as it should always be, uncommitted.in this file I have specified the server port and the name of the mongodb database.I invite you to make your own in case you want to test the project 
+PORT = 3000
+MONGODB = mongodb://127.0.0.1/my_database
+*The database containing the data is called my_database and it contains a document called games, which contains the same data in the games.json file.
+*To run this project, just install the dependencies with npm install (I used npm 8.3.1 and NodeJS 16.14.0) and then start it with npm start.
+*To run the tests, just use npm test.
+
+
+
+
